@@ -1,0 +1,9 @@
+{
+	"name": "GopiADFdataengineer",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6c0bc2f2-401c-4ccf-b40e-af43ce0bb8d0",
+		"tenantId": "7c2c3a12-4ac8-4751-9b2b-d8a2ec72c90e"
+	}
+}

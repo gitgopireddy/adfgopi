@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1onprimises",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=LAPTOP-687BUGR4;initial catalog=ssis_gopi;user id=hr",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2ZDdiYjIzMy1mY2ZjLTRlZGQtYmZhMC1lMDU2YjRlZmQyZTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
